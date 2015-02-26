@@ -1,0 +1,23 @@
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+.#*.*
+
+## python and django specific
+*.log
+*.pot
+*.pyc
+
+
+## virtualenv specific
+include
+lib
+local
+build
+man
+share
+bin
+
