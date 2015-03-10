@@ -7,7 +7,7 @@ from guj.items import GujItem
 class JavaSpider(scrapy.Spider):
     name = "java"
     allowed_domains = ["guj.com.br"]
-    start_urls = ['http://www.guj.com.br/?p=%s' % page for page in xrange(0,2)]
+    start_urls = ['http://www.guj.com.br/?p=%s' % page for page in xrange(0,5)]
     #rules = (Rule(LinkExtractor(allow=('/?p=', )), callback='parse_item'),)
 	
 

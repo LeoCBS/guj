@@ -13,7 +13,7 @@ BOT_NAME = 'guj'
 SPIDER_MODULES = ['guj.spiders']
 NEWSPIDER_MODULE = 'guj.spiders'
 #nao sobre carregar o site
-DOWNLOAD_DELAY = 5
+DOWNLOAD_DELAY = 600
 # evitar looping de recursividade
 REDIRECT_MAX_TIMES = 5
 #para evitar acesso remoto
